@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="title icon" href="images/title-img.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+      <script src="https://cdn.zingchart.com/zingchart.min.js"></script>
+    <title>Admin Dashboard</title>
+  </head>
+  <body>
+    
+
+    <nav class="navbar navbar-expand-md navbar-light">
+      <button class="navbar-toggler ml-auto mb-2 bg-light" type="button" data-toggle="collapse" data-target="#myNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <div class="container-fluid">
+          <div class="row">
+
+            <div class="col-xl-2 col-lg-3 col-md-4 sidebar fixed-top">
+              <a href="#" class="navbar-brand text-secondary d-block mx-auto text-center py-3 mb-4 bottom-border">Navigation</a>
+              <ul class="navbar-nav flex-column mt-4">
+                <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-home text-secondary fa-lg mr-3"></i>Dashboard</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Dashboard1</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Dashboard2</a></li>
+                <li ><a href="#" class="nav-link">Dashboard3</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-secondary p-3 mb-2 sidebar-link"><i class="fas fa-user text-secondary fa-lg mr-3"></i>UI Kit</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-secondary p-3 mb-2 sidebar-link"><i class="fas fa-envelope text-secondary fa-lg mr-3"></i>Icons</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-secondary p-3 mb-2 sidebar-link"><i class="fas fa-shopping-cart text-secondary fa-lg mr-3"></i>Components</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-secondary p-3 mb-2 sidebar-link"><i class="fas fa-chart-line text-secondary fa-lg mr-3"></i>Forms</a></li>
+              </ul>
+            </div>
+
+
+            <div class="col-xl-10 col-lg-9 col-md-8 ml-auto bg-info fixed-top py-2 top-navbar">
+              <div class="row align-items-center">
+                <div class="col-md-4">
+                  <h4 class="text-light text-uppercase mb-0">Dashboard</h4>
+                  <h5 class="text-light ">Welcome to Ubold admin panel</h5>
+                </div>
+                <div class="col-md-5">
+                  <form>
+                    <div class="input-group">
+                      <input type="text" class="form-control search-input" placeholder="Search...">
+                      <button type="button" class="btn btn-white search-button"><i class="fas fa-search text-muted"></i></button>
+                    </div>
+                  </form>
+                </div>
+                <div class="col-md-3">
+                  <ul class="navbar-nav">   
+                    <li class="nav-item ml-md-auto"><a href="#" class="nav-link" data-toggle="modal" data-target="#sign-out"><i class="fas fa-cog fa-2x"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
+            <div class="row pt-md-5 mt-md-3 mb-5">
+              <div class="col-xl-3 col-sm-6 p-2">
+                <div class="card card-common">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <i class="fas fa-money-check-alt fa-2x text-primary"></i>
+                      <div class="text-right text-secondary">
+                        
+                        <h3>$31,750</h3>
+                        <h5>Total Sale</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-sm-6 p-2">
+                <div class="card card-common">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <i class="fas fa-shopping-cart fa-2x text-secondary"></i>
+                      <div class="text-right text-secondary">
+                        
+                        <h3>280</h3>
+                        <h5>Total Revenue</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-sm-6 p-2">
+                <div class="card card-common">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <i class="fas fa-chart-bar fa-2x text-primary"></i>
+                      <div class="text-right text-secondary">
+                        
+                        <h3>0.16%</h3>
+                        <h5>Conversion</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-sm-6 p-2">
+                <div class="card card-common">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <i class="fas fa-eye fa-2x text-secondary"></i>
+                      <div class="text-right text-secondary">
+                        <h5>Todays Visit</h5>
+                        <h3>64,570</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+       <section>
+      <div class="container-fluid">
+        <div class="row mb-5">
+          <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
+            <div class="row align-items-center">
+              
+              <div class="col-xl-6 col-12">
+                <div id="donut_single" style="width: 550px; height: 400px;"></div>
+                
+                <div>
+               </div>
+              </div>
+              <div class="col-xl-6 col-12 mb-4 mb-xl-0">
+                <div id="curve_chart" style="width: 550px; height: 400px"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-fluid">
+        <div class="row mb-5">
+          <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
+            <div class="row align-items-center">
+              <div class="col-xl-6 col-12"> 
+                <div id="mchart"></div>
+              </div>
+              <div class="col-xl-6 col-12 mb-4 mb-xl-0">
+                <h3 class="text-muted text-center mb-3">Recent Orders</h3>
+                <table class="table table-striped bg-light text-center">
+                  <thead>
+                    <tr class="text-muted">
+                      <th>Product</th>
+                      <th>OrderDate</th>
+                      <th>OrderNumber</th>
+                      <th>Amount</th>
+                      <th>CustomerName</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th>001</th>
+                      <td>21/10/2020</td>
+                      <td>125</td>
+                      <td>$44.99</td>
+                      <td>Shivesh</td>
+                    </tr>
+                    <tr>
+                      <th>002</th>
+                      <td>11/10/2020</td>
+                      <td>12232323</td>
+                      <td>$14.99</td>
+                      <td>Shubender Linux</td>
+                    </tr>
+                    <tr>
+                      <th>003</th>
+                      <td>1/10/2020</td>
+                      <td>10001212</td>
+                      <td>$60.99</td>
+                      <td>Sanjay Brownout</td>
+                    </tr>
+                    <tr>
+                      <th>004</th>
+                      <td>2/8/2020</td>
+                      <td>12232121212</td>
+                      <td>$9.99</td>
+                      <td>Kunal Vendor</td>
+                    </tr>
+                    <tr>
+                      <th>005</th>
+                      <td>3/10/2020</td>
+                      <td>2212121212</td>
+                      <td>$56.99</td>
+                      <td>Manish Vipasana</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
